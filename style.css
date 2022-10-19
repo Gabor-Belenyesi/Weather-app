@@ -6,7 +6,7 @@ body{
     justify-content: center;
     align-items: center;
     z-index: 1;
-
+    background-size: cover;
 }
 #root{
     background-color: rgba(211, 211, 211, 0.431);
@@ -19,6 +19,7 @@ body{
     border-radius: 15px;
     z-index: 100;
 }
+
 
 input{
     width: 220px;
@@ -34,34 +35,11 @@ button{
     padding: 6px 16px;
     border-radius: 15px;
     background-color: rgba(211, 211, 211, 0.431);
+    margin-left: -150px;
 }
-.body-class1{
-    background-image: url(./img/london.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;   
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.body-class2{
-    background-image: url(./img/paris.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.body-class3{
-    background-image: url(./img/roma.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.body-class4{
-    background-image: url(./img/madrid.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.body-class5{
-    background-image: url(./img/athen.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.body-class6{
-    background-image: url(./img/budapest.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}      
